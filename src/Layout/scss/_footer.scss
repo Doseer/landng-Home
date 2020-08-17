@@ -1,0 +1,37 @@
+.footer-container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  padding-top: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  justify-content: space-around;
+  background: $primary-color;
+  font-size: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  color: #dddbf5;
+
+  .footer-item-title {
+    text-transform: uppercase;
+  }
+
+  h1 {
+    margin-bottom: 10px;
+  }
+  h3 {
+    margin-bottom: 4px;
+  }
+
+  .footer-item {
+    margin-top: 1.2rem;
+  }
+  .footer-icons {
+    display: flex;
+    justify-content: space-evenly;
+    i {
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  }
+}

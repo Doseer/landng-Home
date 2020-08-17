@@ -1,0 +1,6 @@
+@include mediaMd {
+  .section-wrapper {
+    padding: 25px;
+    grid-template-areas: "title" "item1" "item2" "item3";
+  }
+}

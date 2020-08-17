@@ -1,0 +1,60 @@
+@import "config";
+@import "faq";
+@import "footer";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.section-wrapper {
+  height: 100vh;
+  padding: 5rem;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  grid-template-areas: "title title title" "item1 item2 item3";
+  grid-gap: 30px;
+  color: #3d3c3c;
+
+  i {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  .section-title {
+    grid-area: title;
+    color: $primary-color;
+    margin-top: 7%;
+    font-size: 2rem;
+  }
+  .item-1 {
+    grid-area: item1;
+    i {
+      color: $primary-color;
+    }
+  }
+  .item-2 {
+    grid-area: item2;
+    i {
+      color: $secondary-color;
+    }
+  }
+  .item-3 {
+    grid-area: item3;
+    i {
+      color: $primary-color;
+    }
+  }
+
+  .section-item {
+    padding: 20px;
+    text-align: left;
+    h3 {
+      padding-bottom: 10px;
+    }
+  }
+}
+
+@import "media";
